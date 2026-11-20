@@ -28,27 +28,10 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN"
   },
-  robots: { index: true, follow: true }
-};
-
-const clinicSchema = {
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  name: "Shri Physiotherapy & Rehab Clinic",
-  description:
-    "Physiotherapy and rehabilitation clinic in Magistrate Colony, Patna.",
-  telephone: ["+91-9142961709", "+91-8084913550"],
-  email: "shriphysio50826@gmail.com",
-  priceRange: "₹₹",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Ashiana Digha Road, Magistrate Colony",
-    addressLocality: "Patna",
-    addressRegion: "Bihar",
-    postalCode: "800025",
-    addressCountry: "IN"
+  icons: {
+    icon: "/shri-physiotherapy-rehab/favicon.svg"
   },
-  openingHours: "Mo-Su 09:00-22:00"
+  robots: { index: true, follow: true }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -92,11 +75,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         </footer>
 
         <MobileCTA />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(clinicSchema) }}
-        />
       </body>
     </html>
   );
