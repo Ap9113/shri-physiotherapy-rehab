@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     locale: "en_IN"
   },
   icons: {
-    icon: "/shri-physiotherapy-rehab/favicon.svg"
+    icon: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b2942'/%3E%3Cpath d='M32 12c-6 0-10 4-10 10v6h-6c-6 0-10 4-10 10s4 10 10 10h6v-10h20v10h6c6 0 10-4 10-10s-4-10-10-10h-6v-6c0-6-4-10-10-10z' fill='%2316a085'/%3E%3C/svg%3E"
   },
   robots: { index: true, follow: true }
 };
