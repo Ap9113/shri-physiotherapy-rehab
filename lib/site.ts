@@ -16,13 +16,13 @@ export const clinic = {
 export const doctors = [
   {
     name: "Dr. Akshay Kumar Singh (PT)",
-    image: "/doctors/dr-akshay.jpg",
+    image: "/shri-physiotherapy-rehab/doctors/dr-akshay.jpg",
     qualifications: "B.P.T, M.I.A.P, C.O.M.T, C.D.N.T, C.S.T, C.R.B.T (U.K.)",
     experience: "Ex-IGIMS, Patna",
   },
   {
     name: "Dr. Bhavya Pandey (PT)",
-    image: "/doctors/dr-bhavya.jpg",
+    image: "/shri-physiotherapy-rehab/doctors/dr-bhavya.jpg",
     qualifications: "B.P.T",
     experience: "SRHU, Dehradun, Uttarakhand • Ex-INT-IGIMS, Patna",
   },

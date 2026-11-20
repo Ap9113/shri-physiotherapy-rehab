@@ -41,7 +41,7 @@ export default function Home() {
             <div className="absolute -inset-5 rounded-[36px] bg-[#16a085]/10 blur-2xl" />
             <div className="relative overflow-hidden rounded-[30px] border border-white bg-white p-3 shadow-soft">
               <div className="relative aspect-[4/3] overflow-hidden rounded-[22px] bg-[#eef7fc]">
-                <Image src="/images/clinic-hero.jpg" alt="Shri Physiotherapy & Rehab Clinic in Patna" fill className="object-cover" priority />
+                <Image src="/shri-physiotherapy-rehab/images/clinic-hero.jpg" alt="Shri Physiotherapy & Rehab Clinic in Patna" fill className="object-cover" priority />
               </div>
               <div className="grid grid-cols-3 gap-3 p-3">
                 <div className="rounded-2xl bg-[#eef7fc] p-4"><div className="text-2xl font-black text-[#0b2942]">₹500</div><div className="mt-1 text-xs font-semibold text-slate-500">Clinic consultation</div></div>
@@ -140,7 +140,7 @@ export default function Home() {
         <div className="container">
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <div className="relative aspect-[4/3] overflow-hidden rounded-[28px] bg-[#eef7fc] shadow-soft">
-              <Image src="/images/clinic-interior.jpg" alt="Inside Shri Physiotherapy & Rehab Clinic in Patna" fill className="object-cover"/>
+              <Image src="/shri-physiotherapy-rehab/images/clinic-interior.jpg" alt="Inside Shri Physiotherapy & Rehab Clinic in Patna" fill className="object-cover"/>
             </div>
             <div>
               <div className="eyebrow">The Clinic</div>

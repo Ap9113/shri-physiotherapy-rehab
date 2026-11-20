@@ -9,8 +9,8 @@ export const metadata = {
 };
 
 const photos = [
-  ["/images/clinic-hero.jpg", "Shri Physiotherapy & Rehab Clinic exterior / main clinic photograph"],
-  ["/images/clinic-interior.jpg", "Shri Physiotherapy & Rehab Clinic interior"],
+  ["/shri-physiotherapy-rehab/images/clinic-hero.jpg", "Shri Physiotherapy & Rehab Clinic exterior / main clinic photograph"],
+  ["/shri-physiotherapy-rehab/images/clinic-interior.jpg", "Shri Physiotherapy & Rehab Clinic interior"],
 ];
 
 export default function ClinicPage() {
