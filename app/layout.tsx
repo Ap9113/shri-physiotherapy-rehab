@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import "./globals.css";
 import { Phone, MessageCircle } from "lucide-react";
 import Header from "@/components/Header";
 import MobileCTA from "@/components/MobileCTA";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://ap9113.github.io/shri-physiotherapy-rehab"),
   title: {
     default: "Shri Physiotherapy & Rehab Clinic | Physiotherapy in Patna",
     template: "%s | Shri Physiotherapy & Rehab Clinic"
@@ -83,8 +84,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <div className="mt-10 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
               <div>© {new Date().getFullYear()} Shri Physiotherapy & Rehab Clinic. All rights reserved.</div>
               <div className="flex gap-4">
-                <a href="/privacy" className="hover:text-white">Privacy</a>
-                <a href="/terms" className="hover:text-white">Terms & Disclaimer</a>
+                <Link href="/privacy" className="hover:text-white">Privacy</Link>
+                <Link href="/terms" className="hover:text-white">Terms & Disclaimer</Link>
               </div>
             </div>
           </div>

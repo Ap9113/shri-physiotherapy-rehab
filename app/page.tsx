@@ -56,12 +56,12 @@ export default function Home() {
       <section className="border-y border-slate-100 bg-white">
         <div className="container grid gap-4 py-7 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            [Clock3, "Open every day", "9:00 AM – 10:00 PM"],
-            [MapPin, "Patna location", "Magistrate Colony"],
-            [HomeIcon, "Home visits", "Available at ₹800"],
-            [Phone, "Call the clinic", "9142961709"],
-          ].map(([Icon, title, value]) => (
-            <div key={String(title)} className="flex items-center gap-3">
+            { Icon: Clock3, title: "Open every day", value: "9:00 AM – 10:00 PM" },
+            { Icon: MapPin, title: "Patna location", value: "Magistrate Colony" },
+            { Icon: HomeIcon, title: "Home visits", value: "Available at ₹800" },
+            { Icon: Phone, title: "Call the clinic", value: "9142961709" },
+          ].map(({ Icon, title, value }) => (
+            <div key={title} className="flex items-center gap-3">
               <div className="grid size-11 shrink-0 place-items-center rounded-2xl bg-[#eaf8f4] text-[#16a085]"><Icon size={20}/></div>
               <div><div className="text-sm font-extrabold text-[#0b2942]">{title}</div><div className="text-xs text-slate-500">{value}</div></div>
             </div>
